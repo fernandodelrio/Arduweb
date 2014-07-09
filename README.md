@@ -4,8 +4,9 @@ Arduweb
 A project to create an arduino + joystick + smartphone integration.
 
 This project uses these components:
-Arduino Uno Rev 3: http://arduino.cc/en/Main/arduinoBoardUno
-Joystick Shield: http://www.dfrobot.com/wiki/index.php/Input_Shield_For_Arduino_SKU:_DFR0008
+
+1. Arduino Uno Rev 3: http://arduino.cc/en/Main/arduinoBoardUno
+2. Joystick Shield: http://www.dfrobot.com/wiki/index.php/Input_Shield_For_Arduino_SKU:_DFR0008
 
 After upload the sketch, the arduino sends the status of the buttons, everytime they change. 
 Then a java server application listen the serial port to read the status of the buttons. This application creates a socket connection and waits a client application connect to send these values.
